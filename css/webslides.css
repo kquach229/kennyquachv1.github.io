@@ -555,15 +555,7 @@ code {
   
 }
 
- .background-section {
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   align-items: center;
-   padding: 20px;
-   font-weight: 400;
-   
- }
+
 
 
  .background-section span {
@@ -586,6 +578,7 @@ code {
  table {
    background-color: coral;
    opacity: 0.9;
+   
  }
 
 
@@ -3997,3 +3990,7 @@ Slides Index
 
 .text-slide-number {
   color: #abc; }
+
+  @media(max-width: 398px) and(min-width: 200px ) {
+
+  }
